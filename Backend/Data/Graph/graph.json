@@ -1,0 +1,3077 @@
+{
+    "1": {
+        "1": {
+            "coordinate": {
+                "x": 2171.5454545454545,
+                "y": -3271.0,
+                "z": 0
+            },
+            "node_name": 1,
+            "links": [
+                {
+                    "node": 2,
+                    "type": "horizontal",
+                    "cost": 2206.5454545454545
+                },
+                {
+                    "node": 4,
+                    "type": "horizontal",
+                    "cost": 607.8417584419362
+                },
+                {
+                    "node": 6,
+                    "type": "horizontal",
+                    "cost": 5886.452051284044
+                }
+            ],
+            "description": "입구",
+            "type": "path"
+        },
+        "2": {
+            "coordinate": {
+                "x": -35.0,
+                "y": -3271.0,
+                "z": 0
+            },
+            "node_name": 2,
+            "links": [
+                {
+                    "node": 3,
+                    "type": "horizontal",
+                    "cost": 538.3499737297996
+                },
+                {
+                    "node": 1,
+                    "type": "horizontal",
+                    "cost": 2206.5454545454545
+                }
+            ],
+            "description": "입구",
+            "type": "path"
+        },
+        "3": {
+            "coordinate": {
+                "x": -21.545454545454504,
+                "y": -2732.818181818182,
+                "z": 0
+            },
+            "node_name": 3,
+            "links": [
+                {
+                    "node": 2,
+                    "type": "horizontal",
+                    "cost": 538.3499737297996
+                },
+                {
+                    "node": 10,
+                    "type": "horizontal",
+                    "cost": 584.7698989438019
+                },
+                {
+                    "node": 37,
+                    "type": "horizontal",
+                    "cost": 350.07682745929793
+                },
+                {
+                    "node": 36,
+                    "type": "horizontal",
+                    "cost": 958.6776705614134
+                }
+            ],
+            "description": "출구",
+            "type": "path"
+        },
+        "4": {
+            "coordinate": {
+                "x": 2225.3636363636365,
+                "y": -2665.5454545454545,
+                "z": 0
+            },
+            "node_name": 4,
+            "links": [
+                {
+                    "node": 1,
+                    "type": "horizontal",
+                    "cost": 607.8417584419362
+                },
+                {
+                    "node": 5,
+                    "type": "horizontal",
+                    "cost": 210.16671855167
+                },
+                {
+                    "node": 36,
+                    "type": "horizontal",
+                    "cost": 1291.706437493116
+                },
+                {
+                    "node": 72,
+                    "type": "vertical",
+                    "cost": 1927.5077472483683
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "5": {
+            "coordinate": {
+                "x": 2386.818181818182,
+                "y": -2531.0,
+                "z": 0
+            },
+            "node_name": 5,
+            "links": [
+                {
+                    "node": 4,
+                    "type": "horizontal",
+                    "cost": 210.16671855167
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "6": {
+            "coordinate": {
+                "x": 6530.818181818182,
+                "y": 684.636363636364,
+                "z": 0
+            },
+            "node_name": 6,
+            "links": [
+                {
+                    "node": 1,
+                    "type": "horizontal",
+                    "cost": 5886.452051284044
+                },
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 592.6112546801264
+                }
+            ],
+            "description": "입구",
+            "type": "path"
+        },
+        "7": {
+            "coordinate": {
+                "x": 6557.727272727273,
+                "y": 1276.636363636364,
+                "z": 0
+            },
+            "node_name": 7,
+            "links": [
+                {
+                    "node": 6,
+                    "type": "horizontal",
+                    "cost": 592.6112546801264
+                },
+                {
+                    "node": 53,
+                    "type": "horizontal",
+                    "cost": 734.1054487724192
+                },
+                {
+                    "node": 8,
+                    "type": "horizontal",
+                    "cost": 420.33343710334
+                },
+                {
+                    "node": 9,
+                    "type": "horizontal",
+                    "cost": 359.012051180127
+                },
+                {
+                    "node": 52,
+                    "type": "horizontal",
+                    "cost": 379.1222572606533
+                },
+                {
+                    "node": 33,
+                    "type": "horizontal",
+                    "cost": 770.5590972235996
+                }
+            ],
+            "description": "출구",
+            "type": "path"
+        },
+        "8": {
+            "coordinate": {
+                "x": 6288.636363636364,
+                "y": 1599.545454545455,
+                "z": 0
+            },
+            "node_name": 8,
+            "links": [
+                {
+                    "node": 53,
+                    "type": "horizontal",
+                    "cost": 390.181818181818
+                },
+                {
+                    "node": 9,
+                    "type": "horizontal",
+                    "cost": 190.2760065738343
+                },
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 420.33343710334
+                },
+                {
+                    "node": 54,
+                    "type": "vertical",
+                    "cost": 1897.454972298638
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "9": {
+            "coordinate": {
+                "x": 6477.0,
+                "y": 1626.454545454546,
+                "z": 0
+            },
+            "node_name": 9,
+            "links": [
+                {
+                    "node": 8,
+                    "type": "horizontal",
+                    "cost": 190.2760065738343
+                },
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 359.012051180127
+                },
+                {
+                    "node": 52,
+                    "type": "horizontal",
+                    "cost": 255.99018576229003
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "10": {
+            "coordinate": {
+                "x": -559.727272727273,
+                "y": -2504.090909090909,
+                "z": 0
+            },
+            "node_name": 10,
+            "links": [
+                {
+                    "node": 3,
+                    "type": "horizontal",
+                    "cost": 584.7698989438019
+                },
+                {
+                    "node": 37,
+                    "type": "horizontal",
+                    "cost": 564.7704719179408
+                },
+                {
+                    "node": 11,
+                    "type": "horizontal",
+                    "cost": 2058.7213234440705
+                }
+            ],
+            "description": "가게1",
+            "type": "destination"
+        },
+        "11": {
+            "coordinate": {
+                "x": -586.6363636363635,
+                "y": -445.5454545454545,
+                "z": 0
+            },
+            "node_name": 11,
+            "links": [
+                {
+                    "node": 10,
+                    "type": "horizontal",
+                    "cost": 2058.7213234440705
+                },
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 592.1528728237231
+                },
+                {
+                    "node": 13,
+                    "type": "horizontal",
+                    "cost": 1103.354764133998
+                }
+            ],
+            "description": "가게2",
+            "type": "destination"
+        },
+        "12": {
+            "coordinate": {
+                "x": 610.8181818181818,
+                "y": -445.5454545454545,
+                "z": 0
+            },
+            "node_name": 12,
+            "links": [
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 605.6040219524293
+                },
+                {
+                    "node": 14,
+                    "type": "horizontal",
+                    "cost": 1103.2727272727275
+                }
+            ],
+            "description": "가게3",
+            "type": "destination"
+        },
+        "13": {
+            "coordinate": {
+                "x": -600.090909090909,
+                "y": 657.727272727273,
+                "z": 0
+            },
+            "node_name": 13,
+            "links": [
+                {
+                    "node": 11,
+                    "type": "horizontal",
+                    "cost": 1103.354764133998
+                },
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 1270.297212570532
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 607.8417584419362
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 1078.4638600902026
+                },
+                {
+                    "node": 15,
+                    "type": "horizontal",
+                    "cost": 888.1019225254432
+                }
+            ],
+            "description": "가게4",
+            "type": "destination"
+        },
+        "14": {
+            "coordinate": {
+                "x": 610.8181818181818,
+                "y": 657.727272727273,
+                "z": 0
+            },
+            "node_name": 14,
+            "links": [
+                {
+                    "node": 12,
+                    "type": "horizontal",
+                    "cost": 1103.2727272727275
+                },
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 1270.2972125705319
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 607.841758441936
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 1093.466396525553
+                },
+                {
+                    "node": 16,
+                    "type": "horizontal",
+                    "cost": 862.036412722516
+                }
+            ],
+            "description": "가게5",
+            "type": "destination"
+        },
+        "15": {
+            "coordinate": {
+                "x": -586.6363636363635,
+                "y": 1545.727272727273,
+                "z": 0
+            },
+            "node_name": 15,
+            "links": [
+                {
+                    "node": 13,
+                    "type": "horizontal",
+                    "cost": 888.1019225254432
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 1112.423250207989
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 578.7018816010494
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 1007.564906754058
+                },
+                {
+                    "node": 18,
+                    "type": "horizontal",
+                    "cost": 1036.087363494695
+                }
+            ],
+            "description": "가게6",
+            "type": "destination"
+        },
+        "16": {
+            "coordinate": {
+                "x": 570.4545454545455,
+                "y": 1518.818181818182,
+                "z": 0
+            },
+            "node_name": 16,
+            "links": [
+                {
+                    "node": 14,
+                    "type": "horizontal",
+                    "cost": 862.036412722516
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 1075.3540719992134
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 579.9517791296984
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 1044.960072786998
+                },
+                {
+                    "node": 17,
+                    "type": "horizontal",
+                    "cost": 646.3785447711705
+                }
+            ],
+            "description": "가게7",
+            "type": "destination"
+        },
+        "17": {
+            "coordinate": {
+                "x": 597.3636363636363,
+                "y": 2164.636363636364,
+                "z": 0
+            },
+            "node_name": 17,
+            "links": [
+                {
+                    "node": 16,
+                    "type": "horizontal",
+                    "cost": 646.3785447711705
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 856.2420295822559
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 655.2791847124057
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 982.273968279894
+                },
+                {
+                    "node": 20,
+                    "type": "horizontal",
+                    "cost": 829.9393585334865
+                }
+            ],
+            "description": "코너1",
+            "type": "path"
+        },
+        "18": {
+            "coordinate": {
+                "x": -573.1818181818185,
+                "y": 2581.727272727273,
+                "z": 0
+            },
+            "node_name": 18,
+            "links": [
+                {
+                    "node": 15,
+                    "type": "horizontal",
+                    "cost": 1036.087363494695
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 1168.3008782624283
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 587.3953150973776
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 1311.9389221824279
+                },
+                {
+                    "node": 19,
+                    "type": "horizontal",
+                    "cost": 1085.1572609496448
+                }
+            ],
+            "description": "가게8",
+            "type": "destination"
+        },
+        "19": {
+            "coordinate": {
+                "x": -250.27272727272748,
+                "y": 3617.727272727273,
+                "z": 0
+            },
+            "node_name": 19,
+            "links": [
+                {
+                    "node": 18,
+                    "type": "horizontal",
+                    "cost": 1085.1572609496448
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 1258.773218863877
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 981.4443059184943
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 1481.5281367003163
+                },
+                {
+                    "node": 21,
+                    "type": "horizontal",
+                    "cost": 1008.4628348413235
+                }
+            ],
+            "description": "가게9",
+            "type": "destination"
+        },
+        "20": {
+            "coordinate": {
+                "x": 1377.7272727272727,
+                "y": 2447.181818181818,
+                "z": 0
+            },
+            "node_name": 20,
+            "links": [
+                {
+                    "node": 17,
+                    "type": "horizontal",
+                    "cost": 829.9393585334865
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 1038.0946946407746
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 1246.6346101563481
+                },
+                {
+                    "node": 22,
+                    "type": "horizontal",
+                    "cost": 716.6361272242528
+                }
+            ],
+            "description": "가게10",
+            "type": "destination"
+        },
+        "21": {
+            "coordinate": {
+                "x": 462.81818181818176,
+                "y": 4330.818181818182,
+                "z": 0
+            },
+            "node_name": 21,
+            "links": [
+                {
+                    "node": 19,
+                    "type": "horizontal",
+                    "cost": 1008.4628348413235
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 1193.2141467481854
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 1002.6119277596645
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 1282.7764309889803
+                },
+                {
+                    "node": 23,
+                    "type": "horizontal",
+                    "cost": 1042.618762682468
+                }
+            ],
+            "description": "가게11",
+            "type": "destination"
+        },
+        "22": {
+            "coordinate": {
+                "x": 1835.1818181818182,
+                "y": 2998.818181818182,
+                "z": 0
+            },
+            "node_name": 22,
+            "links": [
+                {
+                    "node": 20,
+                    "type": "horizontal",
+                    "cost": 716.6361272242528
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 1233.2762521226082
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 915.106930481283
+                },
+                {
+                    "node": 24,
+                    "type": "horizontal",
+                    "cost": 499.2706084838836
+                }
+            ],
+            "description": "가게12",
+            "type": "destination"
+        },
+        "23": {
+            "coordinate": {
+                "x": 1445.0,
+                "y": 4680.636363636364,
+                "z": 0
+            },
+            "node_name": 23,
+            "links": [
+                {
+                    "node": 21,
+                    "type": "horizontal",
+                    "cost": 1042.618762682468
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 1018.6432720547856
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 687.2362664691182
+                },
+                {
+                    "node": 25,
+                    "type": "horizontal",
+                    "cost": 1104.0108395682978
+                }
+            ],
+            "description": "가게13",
+            "type": "destination"
+        },
+        "24": {
+            "coordinate": {
+                "x": 1956.2727272727273,
+                "y": 3483.181818181818,
+                "z": 0
+            },
+            "node_name": 24,
+            "links": [
+                {
+                    "node": 22,
+                    "type": "horizontal",
+                    "cost": 499.2706084838836
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 1386.862801344122
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 754.0549555788742
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 614.8005925461053
+                },
+                {
+                    "node": 45,
+                    "type": "horizontal",
+                    "cost": 820.1756715676256
+                },
+                {
+                    "node": 26,
+                    "type": "horizontal",
+                    "cost": 1278.2526296174663
+                }
+            ],
+            "description": "코너2",
+            "type": "path"
+        },
+        "25": {
+            "coordinate": {
+                "x": 2548.2727272727275,
+                "y": 4640.272727272728,
+                "z": 0
+            },
+            "node_name": 25,
+            "links": [
+                {
+                    "node": 23,
+                    "type": "horizontal",
+                    "cost": 1104.0108395682978
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 1022.8994602526313
+                },
+                {
+                    "node": 45,
+                    "type": "horizontal",
+                    "cost": 619.4937949515485
+                },
+                {
+                    "node": 46,
+                    "type": "horizontal",
+                    "cost": 945.7502334825151
+                },
+                {
+                    "node": 27,
+                    "type": "horizontal",
+                    "cost": 1454.6473146152491
+                }
+            ],
+            "description": "가게14",
+            "type": "destination"
+        },
+        "26": {
+            "coordinate": {
+                "x": 3234.4545454545455,
+                "y": 3496.636363636364,
+                "z": 0
+            },
+            "node_name": 26,
+            "links": [
+                {
+                    "node": 24,
+                    "type": "horizontal",
+                    "cost": 1278.2526296174663
+                },
+                {
+                    "node": 45,
+                    "type": "horizontal",
+                    "cost": 842.602658237809
+                },
+                {
+                    "node": 46,
+                    "type": "horizontal",
+                    "cost": 539.6933319599042
+                },
+                {
+                    "node": 47,
+                    "type": "horizontal",
+                    "cost": 985.4019442519573
+                },
+                {
+                    "node": 28,
+                    "type": "horizontal",
+                    "cost": 1319.1631206348118
+                }
+            ],
+            "description": "가게15",
+            "type": "destination"
+        },
+        "27": {
+            "coordinate": {
+                "x": 4001.3636363636365,
+                "y": 4707.545454545455,
+                "z": 0
+            },
+            "node_name": 27,
+            "links": [
+                {
+                    "node": 25,
+                    "type": "horizontal",
+                    "cost": 1454.6473146152491
+                },
+                {
+                    "node": 46,
+                    "type": "horizontal",
+                    "cost": 990.1667945309698
+                },
+                {
+                    "node": 47,
+                    "type": "horizontal",
+                    "cost": 647.0783160541221
+                },
+                {
+                    "node": 48,
+                    "type": "horizontal",
+                    "cost": 895.1065498236452
+                },
+                {
+                    "node": 29,
+                    "type": "horizontal",
+                    "cost": 1533.87719184732
+                }
+            ],
+            "description": "가게16",
+            "type": "destination"
+        },
+        "28": {
+            "coordinate": {
+                "x": 4553.0,
+                "y": 3456.272727272728,
+                "z": 0
+            },
+            "node_name": 28,
+            "links": [
+                {
+                    "node": 26,
+                    "type": "horizontal",
+                    "cost": 1319.1631206348118
+                },
+                {
+                    "node": 47,
+                    "type": "horizontal",
+                    "cost": 792.4487417268464
+                },
+                {
+                    "node": 48,
+                    "type": "horizontal",
+                    "cost": 594.4412474704417
+                },
+                {
+                    "node": 35,
+                    "type": "horizontal",
+                    "cost": 1237.818181818182
+                }
+            ],
+            "description": "가게17",
+            "type": "destination"
+        },
+        "29": {
+            "coordinate": {
+                "x": 5535.181818181818,
+                "y": 4694.090909090909,
+                "z": 0
+            },
+            "node_name": 29,
+            "links": [
+                {
+                    "node": 27,
+                    "type": "horizontal",
+                    "cost": 1533.87719184732
+                },
+                {
+                    "node": 48,
+                    "type": "horizontal",
+                    "cost": 1130.9023677087491
+                },
+                {
+                    "node": 49,
+                    "type": "horizontal",
+                    "cost": 609.1804547474259
+                },
+                {
+                    "node": 30,
+                    "type": "horizontal",
+                    "cost": 1062.9942428492163
+                }
+            ],
+            "description": "가게18",
+            "type": "destination"
+        },
+        "30": {
+            "coordinate": {
+                "x": 6598.090909090909,
+                "y": 4680.636363636364,
+                "z": 0
+            },
+            "node_name": 30,
+            "links": [
+                {
+                    "node": 29,
+                    "type": "horizontal",
+                    "cost": 1062.9942428492163
+                },
+                {
+                    "node": 49,
+                    "type": "horizontal",
+                    "cost": 1158.3418185471162
+                },
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 645.9583181292202
+                },
+                {
+                    "node": 31,
+                    "type": "horizontal",
+                    "cost": 747.3028085075725
+                }
+            ],
+            "description": "가게19",
+            "type": "destination"
+        },
+        "31": {
+            "coordinate": {
+                "x": 7284.272727272727,
+                "y": 4384.636363636364,
+                "z": 0
+            },
+            "node_name": 31,
+            "links": [
+                {
+                    "node": 30,
+                    "type": "horizontal",
+                    "cost": 747.3028085075725
+                },
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 782.2172343108351
+                },
+                {
+                    "node": 51,
+                    "type": "horizontal",
+                    "cost": 1578.5456220812046
+                },
+                {
+                    "node": 32,
+                    "type": "horizontal",
+                    "cost": 1534.7620700194047
+                }
+            ],
+            "description": "가게20",
+            "type": "destination"
+        },
+        "32": {
+            "coordinate": {
+                "x": 7338.090909090909,
+                "y": 2850.818181818182,
+                "z": 0
+            },
+            "node_name": 32,
+            "links": [
+                {
+                    "node": 31,
+                    "type": "horizontal",
+                    "cost": 1534.7620700194047
+                },
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 1403.4064814108972
+                },
+                {
+                    "node": 51,
+                    "type": "horizontal",
+                    "cost": 566.5306334856799
+                },
+                {
+                    "node": 52,
+                    "type": "horizontal",
+                    "cost": 1377.95829321908
+                },
+                {
+                    "node": 33,
+                    "type": "horizontal",
+                    "cost": 1412.9835265426814
+                }
+            ],
+            "description": "가게21",
+            "type": "destination"
+        },
+        "33": {
+            "coordinate": {
+                "x": 7311.181818181818,
+                "y": 1438.090909090909,
+                "z": 0
+            },
+            "node_name": 33,
+            "links": [
+                {
+                    "node": 32,
+                    "type": "horizontal",
+                    "cost": 1412.9835265426814
+                },
+                {
+                    "node": 51,
+                    "type": "horizontal",
+                    "cost": 1549.5524707166685
+                },
+                {
+                    "node": 52,
+                    "type": "horizontal",
+                    "cost": 604.4071748894537
+                },
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 770.5590972235996
+                }
+            ],
+            "description": "가게22",
+            "type": "destination"
+        },
+        "34": {
+            "coordinate": {
+                "x": 5777.363636363636,
+                "y": 2097.363636363637,
+                "z": 0
+            },
+            "node_name": 34,
+            "links": [
+                {
+                    "node": 53,
+                    "type": "horizontal",
+                    "cost": 512.3338271217541
+                },
+                {
+                    "node": 35,
+                    "type": "horizontal",
+                    "cost": 1358.9756959374809
+                }
+            ],
+            "description": "가게23",
+            "type": "destination"
+        },
+        "35": {
+            "coordinate": {
+                "x": 5790.818181818182,
+                "y": 3456.272727272728,
+                "z": 0
+            },
+            "node_name": 35,
+            "links": [
+                {
+                    "node": 34,
+                    "type": "horizontal",
+                    "cost": 1358.9756959374809
+                },
+                {
+                    "node": 28,
+                    "type": "horizontal",
+                    "cost": 1237.818181818182
+                },
+                {
+                    "node": 49,
+                    "type": "horizontal",
+                    "cost": 659.8216638601472
+                },
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 982.273968279894
+                }
+            ],
+            "description": "코너3",
+            "type": "path"
+        },
+        "36": {
+            "coordinate": {
+                "x": 933.7272727272727,
+                "y": -2652.090909090909,
+                "z": 0
+            },
+            "node_name": 36,
+            "links": [
+                {
+                    "node": 3,
+                    "type": "horizontal",
+                    "cost": 958.6776705614134
+                },
+                {
+                    "node": 37,
+                    "type": "horizontal",
+                    "cost": 979.505694194106
+                },
+                {
+                    "node": 4,
+                    "type": "horizontal",
+                    "cost": 1291.706437493116
+                }
+            ],
+            "description": "복도1",
+            "type": "path"
+        },
+        "37": {
+            "coordinate": {
+                "x": -8.090909090909008,
+                "y": -2383.0,
+                "z": 0
+            },
+            "node_name": 37,
+            "links": [
+                {
+                    "node": 10,
+                    "type": "horizontal",
+                    "cost": 564.7704719179408
+                },
+                {
+                    "node": 3,
+                    "type": "horizontal",
+                    "cost": 350.07682745929793
+                },
+                {
+                    "node": 36,
+                    "type": "horizontal",
+                    "cost": 979.505694194106
+                },
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 1924.0470432901031
+                }
+            ],
+            "description": "복도2",
+            "type": "path"
+        },
+        "38": {
+            "coordinate": {
+                "x": 5.363636363636488,
+                "y": -459.0,
+                "z": 0
+            },
+            "node_name": 38,
+            "links": [
+                {
+                    "node": 37,
+                    "type": "horizontal",
+                    "cost": 1924.0470432901031
+                },
+                {
+                    "node": 11,
+                    "type": "horizontal",
+                    "cost": 592.1528728237231
+                },
+                {
+                    "node": 13,
+                    "type": "horizontal",
+                    "cost": 1270.297212570532
+                },
+                {
+                    "node": 14,
+                    "type": "horizontal",
+                    "cost": 1270.2972125705319
+                },
+                {
+                    "node": 12,
+                    "type": "horizontal",
+                    "cost": 605.6040219524293
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 1062.909090909091
+                }
+            ],
+            "description": "복도3",
+            "type": "path"
+        },
+        "39": {
+            "coordinate": {
+                "x": 5.363636363636488,
+                "y": 603.909090909091,
+                "z": 0
+            },
+            "node_name": 39,
+            "links": [
+                {
+                    "node": 38,
+                    "type": "horizontal",
+                    "cost": 1062.909090909091
+                },
+                {
+                    "node": 13,
+                    "type": "horizontal",
+                    "cost": 607.8417584419362
+                },
+                {
+                    "node": 15,
+                    "type": "horizontal",
+                    "cost": 1112.423250207989
+                },
+                {
+                    "node": 16,
+                    "type": "horizontal",
+                    "cost": 1075.3540719992134
+                },
+                {
+                    "node": 14,
+                    "type": "horizontal",
+                    "cost": 607.841758441936
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 955.3674728943112
+                }
+            ],
+            "description": "복도4",
+            "type": "path"
+        },
+        "40": {
+            "coordinate": {
+                "x": -8.090909090909008,
+                "y": 1559.181818181818,
+                "z": 0
+            },
+            "node_name": 40,
+            "links": [
+                {
+                    "node": 13,
+                    "type": "horizontal",
+                    "cost": 1078.4638600902026
+                },
+                {
+                    "node": 39,
+                    "type": "horizontal",
+                    "cost": 955.3674728943112
+                },
+                {
+                    "node": 14,
+                    "type": "horizontal",
+                    "cost": 1093.466396525553
+                },
+                {
+                    "node": 15,
+                    "type": "horizontal",
+                    "cost": 578.7018816010494
+                },
+                {
+                    "node": 16,
+                    "type": "horizontal",
+                    "cost": 579.9517791296984
+                },
+                {
+                    "node": 18,
+                    "type": "horizontal",
+                    "cost": 1168.3008782624283
+                },
+                {
+                    "node": 17,
+                    "type": "horizontal",
+                    "cost": 856.2420295822559
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 820.8375484782212
+                }
+            ],
+            "description": "복도5",
+            "type": "path"
+        },
+        "41": {
+            "coordinate": {
+                "x": -21.545454545454504,
+                "y": 2379.909090909091,
+                "z": 0
+            },
+            "node_name": 41,
+            "links": [
+                {
+                    "node": 15,
+                    "type": "horizontal",
+                    "cost": 1007.564906754058
+                },
+                {
+                    "node": 40,
+                    "type": "horizontal",
+                    "cost": 820.8375484782212
+                },
+                {
+                    "node": 16,
+                    "type": "horizontal",
+                    "cost": 1044.960072786998
+                },
+                {
+                    "node": 18,
+                    "type": "horizontal",
+                    "cost": 587.3953150973776
+                },
+                {
+                    "node": 17,
+                    "type": "horizontal",
+                    "cost": 655.2791847124057
+                },
+                {
+                    "node": 19,
+                    "type": "horizontal",
+                    "cost": 1258.773218863877
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 993.998653074565
+                }
+            ],
+            "description": "복도6",
+            "type": "path"
+        },
+        "42": {
+            "coordinate": {
+                "x": 610.8181818181818,
+                "y": 3146.818181818182,
+                "z": 0
+            },
+            "node_name": 42,
+            "links": [
+                {
+                    "node": 18,
+                    "type": "horizontal",
+                    "cost": 1311.9389221824279
+                },
+                {
+                    "node": 41,
+                    "type": "horizontal",
+                    "cost": 993.998653074565
+                },
+                {
+                    "node": 17,
+                    "type": "horizontal",
+                    "cost": 982.273968279894
+                },
+                {
+                    "node": 19,
+                    "type": "horizontal",
+                    "cost": 981.4443059184943
+                },
+                {
+                    "node": 20,
+                    "type": "horizontal",
+                    "cost": 1038.0946946407746
+                },
+                {
+                    "node": 21,
+                    "type": "horizontal",
+                    "cost": 1193.2141467481854
+                },
+                {
+                    "node": 22,
+                    "type": "horizontal",
+                    "cost": 1233.2762521226082
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 820.1756715676252
+                }
+            ],
+            "description": "복도7",
+            "type": "path"
+        },
+        "43": {
+            "coordinate": {
+                "x": 1229.7272727272727,
+                "y": 3685.0,
+                "z": 0
+            },
+            "node_name": 43,
+            "links": [
+                {
+                    "node": 19,
+                    "type": "horizontal",
+                    "cost": 1481.5281367003163
+                },
+                {
+                    "node": 42,
+                    "type": "horizontal",
+                    "cost": 820.1756715676252
+                },
+                {
+                    "node": 20,
+                    "type": "horizontal",
+                    "cost": 1246.6346101563481
+                },
+                {
+                    "node": 21,
+                    "type": "horizontal",
+                    "cost": 1002.6119277596645
+                },
+                {
+                    "node": 22,
+                    "type": "horizontal",
+                    "cost": 915.106930481283
+                },
+                {
+                    "node": 23,
+                    "type": "horizontal",
+                    "cost": 1018.6432720547856
+                },
+                {
+                    "node": 24,
+                    "type": "horizontal",
+                    "cost": 754.0549555788742
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 605.4545454545458
+                }
+            ],
+            "description": "복도8",
+            "type": "path"
+        },
+        "44": {
+            "coordinate": {
+                "x": 1714.090909090909,
+                "y": 4048.272727272728,
+                "z": 0
+            },
+            "node_name": 44,
+            "links": [
+                {
+                    "node": 21,
+                    "type": "horizontal",
+                    "cost": 1282.7764309889803
+                },
+                {
+                    "node": 43,
+                    "type": "horizontal",
+                    "cost": 605.4545454545458
+                },
+                {
+                    "node": 23,
+                    "type": "horizontal",
+                    "cost": 687.2362664691182
+                },
+                {
+                    "node": 24,
+                    "type": "horizontal",
+                    "cost": 614.8005925461053
+                },
+                {
+                    "node": 25,
+                    "type": "horizontal",
+                    "cost": 1022.8994602526313
+                },
+                {
+                    "node": 45,
+                    "type": "horizontal",
+                    "cost": 861.5112610364196
+                }
+            ],
+            "description": "복도9",
+            "type": "path"
+        },
+        "45": {
+            "coordinate": {
+                "x": 2575.181818181818,
+                "y": 4021.363636363637,
+                "z": 0
+            },
+            "node_name": 45,
+            "links": [
+                {
+                    "node": 24,
+                    "type": "horizontal",
+                    "cost": 820.1756715676256
+                },
+                {
+                    "node": 44,
+                    "type": "horizontal",
+                    "cost": 861.5112610364196
+                },
+                {
+                    "node": 25,
+                    "type": "horizontal",
+                    "cost": 619.4937949515485
+                },
+                {
+                    "node": 26,
+                    "type": "horizontal",
+                    "cost": 842.602658237809
+                },
+                {
+                    "node": 46,
+                    "type": "horizontal",
+                    "cost": 699.765722306904
+                }
+            ],
+            "description": "복도10",
+            "type": "path"
+        },
+        "46": {
+            "coordinate": {
+                "x": 3274.818181818182,
+                "y": 4034.818181818182,
+                "z": 0
+            },
+            "node_name": 46,
+            "links": [
+                {
+                    "node": 25,
+                    "type": "horizontal",
+                    "cost": 945.7502334825151
+                },
+                {
+                    "node": 45,
+                    "type": "horizontal",
+                    "cost": 699.765722306904
+                },
+                {
+                    "node": 26,
+                    "type": "horizontal",
+                    "cost": 539.6933319599042
+                },
+                {
+                    "node": 27,
+                    "type": "horizontal",
+                    "cost": 990.1667945309698
+                },
+                {
+                    "node": 47,
+                    "type": "horizontal",
+                    "cost": 767.3810350097024
+                }
+            ],
+            "description": "복도11",
+            "type": "path"
+        },
+        "47": {
+            "coordinate": {
+                "x": 4041.727272727273,
+                "y": 4061.727272727273,
+                "z": 0
+            },
+            "node_name": 47,
+            "links": [
+                {
+                    "node": 26,
+                    "type": "horizontal",
+                    "cost": 985.4019442519573
+                },
+                {
+                    "node": 46,
+                    "type": "horizontal",
+                    "cost": 767.3810350097024
+                },
+                {
+                    "node": 27,
+                    "type": "horizontal",
+                    "cost": 647.0783160541221
+                },
+                {
+                    "node": 28,
+                    "type": "horizontal",
+                    "cost": 792.4487417268464
+                },
+                {
+                    "node": 48,
+                    "type": "horizontal",
+                    "cost": 565.2510595572364
+                }
+            ],
+            "description": "복도12",
+            "type": "path"
+        },
+        "48": {
+            "coordinate": {
+                "x": 4606.818181818182,
+                "y": 4048.272727272728,
+                "z": 0
+            },
+            "node_name": 48,
+            "links": [
+                {
+                    "node": 47,
+                    "type": "horizontal",
+                    "cost": 565.2510595572364
+                },
+                {
+                    "node": 27,
+                    "type": "horizontal",
+                    "cost": 895.1065498236452
+                },
+                {
+                    "node": 28,
+                    "type": "horizontal",
+                    "cost": 594.4412474704417
+                },
+                {
+                    "node": 29,
+                    "type": "horizontal",
+                    "cost": 1130.9023677087491
+                },
+                {
+                    "node": 49,
+                    "type": "horizontal",
+                    "cost": 996.4542095528212
+                }
+            ],
+            "description": "복도13",
+            "type": "path"
+        },
+        "49": {
+            "coordinate": {
+                "x": 5602.454545454546,
+                "y": 4088.636363636364,
+                "z": 0
+            },
+            "node_name": 49,
+            "links": [
+                {
+                    "node": 48,
+                    "type": "horizontal",
+                    "cost": 996.4542095528212
+                },
+                {
+                    "node": 29,
+                    "type": "horizontal",
+                    "cost": 609.1804547474259
+                },
+                {
+                    "node": 35,
+                    "type": "horizontal",
+                    "cost": 659.8216638601472
+                },
+                {
+                    "node": 30,
+                    "type": "horizontal",
+                    "cost": 1158.3418185471162
+                },
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 983.6551838226426
+                }
+            ],
+            "description": "복도14",
+            "type": "path"
+        },
+        "50": {
+            "coordinate": {
+                "x": 6584.636363636364,
+                "y": 4034.818181818182,
+                "z": 0
+            },
+            "node_name": 50,
+            "links": [
+                {
+                    "node": 35,
+                    "type": "horizontal",
+                    "cost": 982.273968279894
+                },
+                {
+                    "node": 49,
+                    "type": "horizontal",
+                    "cost": 983.6551838226426
+                },
+                {
+                    "node": 30,
+                    "type": "horizontal",
+                    "cost": 645.9583181292202
+                },
+                {
+                    "node": 31,
+                    "type": "horizontal",
+                    "cost": 782.2172343108351
+                },
+                {
+                    "node": 32,
+                    "type": "horizontal",
+                    "cost": 1403.4064814108972
+                },
+                {
+                    "node": 51,
+                    "type": "horizontal",
+                    "cost": 1159.0448618304374
+                }
+            ],
+            "description": "복도15",
+            "type": "path"
+        },
+        "51": {
+            "coordinate": {
+                "x": 6773.0,
+                "y": 2891.181818181818,
+                "z": 0
+            },
+            "node_name": 51,
+            "links": [
+                {
+                    "node": 50,
+                    "type": "horizontal",
+                    "cost": 1159.0448618304374
+                },
+                {
+                    "node": 31,
+                    "type": "horizontal",
+                    "cost": 1578.5456220812046
+                },
+                {
+                    "node": 32,
+                    "type": "horizontal",
+                    "cost": 566.5306334856799
+                },
+                {
+                    "node": 33,
+                    "type": "horizontal",
+                    "cost": 1549.5524707166685
+                },
+                {
+                    "node": 52,
+                    "type": "horizontal",
+                    "cost": 1278.8189799463698
+                }
+            ],
+            "description": "복도16",
+            "type": "path"
+        },
+        "52": {
+            "coordinate": {
+                "x": 6732.636363636364,
+                "y": 1613.0,
+                "z": 0
+            },
+            "node_name": 52,
+            "links": [
+                {
+                    "node": 9,
+                    "type": "horizontal",
+                    "cost": 255.99018576229003
+                },
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 379.1222572606533
+                },
+                {
+                    "node": 33,
+                    "type": "horizontal",
+                    "cost": 604.4071748894537
+                },
+                {
+                    "node": 32,
+                    "type": "horizontal",
+                    "cost": 1377.95829321908
+                },
+                {
+                    "node": 51,
+                    "type": "horizontal",
+                    "cost": 1278.8189799463698
+                }
+            ],
+            "description": "복도17",
+            "type": "path"
+        },
+        "53": {
+            "coordinate": {
+                "x": 5898.454545454546,
+                "y": 1599.545454545455,
+                "z": 0
+            },
+            "node_name": 53,
+            "links": [
+                {
+                    "node": 7,
+                    "type": "horizontal",
+                    "cost": 734.1054487724192
+                },
+                {
+                    "node": 8,
+                    "type": "horizontal",
+                    "cost": 390.181818181818
+                },
+                {
+                    "node": 34,
+                    "type": "horizontal",
+                    "cost": 512.3338271217541
+                }
+            ],
+            "description": "복도18",
+            "type": "path"
+        }
+    },
+    "2": {
+        "54": {
+            "coordinate": {
+                "x": 6302.090909090909,
+                "y": 3442.818181818182,
+                "z": 450
+            },
+            "node_name": 54,
+            "links": [
+                {
+                    "node": 84,
+                    "type": "horizontal",
+                    "cost": 392.26403656232
+                },
+                {
+                    "node": 55,
+                    "type": "horizontal",
+                    "cost": 203.60421824203564
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "55": {
+            "coordinate": {
+                "x": 6503.909090909091,
+                "y": 3469.727272727273,
+                "z": 450
+            },
+            "node_name": 55,
+            "links": [
+                {
+                    "node": 54,
+                    "type": "horizontal",
+                    "cost": 203.60421824203564
+                },
+                {
+                    "node": 56,
+                    "type": "horizontal",
+                    "cost": 781.4068262430096
+                },
+                {
+                    "node": 9,
+                    "type": "vertical",
+                    "cost": 1897.5980729018963
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "56": {
+            "coordinate": {
+                "x": 7284.272727272727,
+                "y": 3510.090909090909,
+                "z": 450
+            },
+            "node_name": 56,
+            "links": [
+                {
+                    "node": 55,
+                    "type": "horizontal",
+                    "cost": 781.4068262430096
+                },
+                {
+                    "node": 89,
+                    "type": "horizontal",
+                    "cost": 1790.718623928015
+                },
+                {
+                    "node": 57,
+                    "type": "horizontal",
+                    "cost": 1077.1201886634785
+                }
+            ],
+            "description": "가게24",
+            "type": "destination"
+        },
+        "57": {
+            "coordinate": {
+                "x": 7243.909090909091,
+                "y": 4586.454545454546,
+                "z": 450
+            },
+            "node_name": 57,
+            "links": [
+                {
+                    "node": 56,
+                    "type": "horizontal",
+                    "cost": 1077.1201886634785
+                },
+                {
+                    "node": 58,
+                    "type": "horizontal",
+                    "cost": 1695.7531786717093
+                }
+            ],
+            "description": "가게25",
+            "type": "destination"
+        },
+        "58": {
+            "coordinate": {
+                "x": 5548.636363636364,
+                "y": 4626.818181818182,
+                "z": 450
+            },
+            "node_name": 58,
+            "links": [
+                {
+                    "node": 83,
+                    "type": "horizontal",
+                    "cost": 1036.0
+                },
+                {
+                    "node": 57,
+                    "type": "horizontal",
+                    "cost": 1695.7531786717093
+                },
+                {
+                    "node": 59,
+                    "type": "horizontal",
+                    "cost": 2032.0372873522977
+                }
+            ],
+            "description": "가게26",
+            "type": "destination"
+        },
+        "59": {
+            "coordinate": {
+                "x": 3517.0,
+                "y": 4667.181818181818,
+                "z": 450
+            },
+            "node_name": 59,
+            "links": [
+                {
+                    "node": 81,
+                    "type": "horizontal",
+                    "cost": 1077.1201886634776
+                },
+                {
+                    "node": 58,
+                    "type": "horizontal",
+                    "cost": 2032.0372873522977
+                },
+                {
+                    "node": 60,
+                    "type": "horizontal",
+                    "cost": 1009.1806020744283
+                }
+            ],
+            "description": "가게27",
+            "type": "destination"
+        },
+        "60": {
+            "coordinate": {
+                "x": 2507.909090909091,
+                "y": 4653.727272727273,
+                "z": 450
+            },
+            "node_name": 60,
+            "links": [
+                {
+                    "node": 59,
+                    "type": "horizontal",
+                    "cost": 1009.1806020744283
+                },
+                {
+                    "node": 61,
+                    "type": "horizontal",
+                    "cost": 1108.510846821384
+                }
+            ],
+            "description": "가게28",
+            "type": "destination"
+        },
+        "61": {
+            "coordinate": {
+                "x": 1404.6363636363635,
+                "y": 4546.090909090909,
+                "z": 450
+            },
+            "node_name": 61,
+            "links": [
+                {
+                    "node": 80,
+                    "type": "horizontal",
+                    "cost": 1053.4144405081383
+                },
+                {
+                    "node": 60,
+                    "type": "horizontal",
+                    "cost": 1108.510846821384
+                },
+                {
+                    "node": 62,
+                    "type": "horizontal",
+                    "cost": 919.0547785363029
+                }
+            ],
+            "description": "가게29",
+            "type": "destination"
+        },
+        "62": {
+            "coordinate": {
+                "x": 530.090909090909,
+                "y": 4263.545454545455,
+                "z": 450
+            },
+            "node_name": 62,
+            "links": [
+                {
+                    "node": 63,
+                    "type": "horizontal",
+                    "cost": 1019.0874543774062
+                },
+                {
+                    "node": 61,
+                    "type": "horizontal",
+                    "cost": 919.0547785363029
+                }
+            ],
+            "description": "가게30",
+            "type": "destination"
+        },
+        "63": {
+            "coordinate": {
+                "x": -156.090909090909,
+                "y": 3510.090909090909,
+                "z": 450
+            },
+            "node_name": 63,
+            "links": [
+                {
+                    "node": 64,
+                    "type": "horizontal",
+                    "cost": 1085.1572609496448
+                },
+                {
+                    "node": 62,
+                    "type": "horizontal",
+                    "cost": 1019.0874543774062
+                }
+            ],
+            "description": "가게31",
+            "type": "destination"
+        },
+        "64": {
+            "coordinate": {
+                "x": -479.0,
+                "y": 2474.090909090909,
+                "z": 450
+            },
+            "node_name": 64,
+            "links": [
+                {
+                    "node": 63,
+                    "type": "horizontal",
+                    "cost": 1085.1572609496448
+                },
+                {
+                    "node": 77,
+                    "type": "horizontal",
+                    "cost": 1068.0061905909047
+                },
+                {
+                    "node": 65,
+                    "type": "horizontal",
+                    "cost": 970.221070488491
+                }
+            ],
+            "description": "가게32",
+            "type": "destination"
+        },
+        "65": {
+            "coordinate": {
+                "x": -532.818181818182,
+                "y": 1505.363636363637,
+                "z": 450
+            },
+            "node_name": 65,
+            "links": [
+                {
+                    "node": 64,
+                    "type": "horizontal",
+                    "cost": 970.221070488491
+                },
+                {
+                    "node": 66,
+                    "type": "horizontal",
+                    "cost": 968.727272727273
+                }
+            ],
+            "description": "가게33",
+            "type": "destination"
+        },
+        "66": {
+            "coordinate": {
+                "x": -532.818181818182,
+                "y": 536.636363636364,
+                "z": 450
+            },
+            "node_name": 66,
+            "links": [
+                {
+                    "node": 67,
+                    "type": "horizontal",
+                    "cost": 1022.545454545455
+                },
+                {
+                    "node": 75,
+                    "type": "horizontal",
+                    "cost": 1050.2304823778934
+                },
+                {
+                    "node": 65,
+                    "type": "horizontal",
+                    "cost": 968.727272727273
+                }
+            ],
+            "description": "가게34",
+            "type": "destination"
+        },
+        "67": {
+            "coordinate": {
+                "x": -532.818181818182,
+                "y": -485.909090909091,
+                "z": 450
+            },
+            "node_name": 67,
+            "links": [
+                {
+                    "node": 68,
+                    "type": "horizontal",
+                    "cost": 1022.6339674609673
+                },
+                {
+                    "node": 66,
+                    "type": "horizontal",
+                    "cost": 1022.545454545455
+                }
+            ],
+            "description": "가게35",
+            "type": "destination"
+        },
+        "68": {
+            "coordinate": {
+                "x": -546.2727272727275,
+                "y": -1508.4545454545455,
+                "z": 450
+            },
+            "node_name": 68,
+            "links": [
+                {
+                    "node": 69,
+                    "type": "horizontal",
+                    "cost": 1319.1631206348118
+                },
+                {
+                    "node": 71,
+                    "type": "horizontal",
+                    "cost": 1076.6999474595996
+                },
+                {
+                    "node": 67,
+                    "type": "horizontal",
+                    "cost": 1022.6339674609673
+                }
+            ],
+            "description": "가게36",
+            "type": "destination"
+        },
+        "69": {
+            "coordinate": {
+                "x": -505.909090909091,
+                "y": -2827.0,
+                "z": 450
+            },
+            "node_name": 69,
+            "links": [
+                {
+                    "node": 68,
+                    "type": "horizontal",
+                    "cost": 1319.1631206348118
+                },
+                {
+                    "node": 70,
+                    "type": "horizontal",
+                    "cost": 1022.6339674609673
+                }
+            ],
+            "description": "코너4",
+            "type": "path"
+        },
+        "70": {
+            "coordinate": {
+                "x": 516.6363636363635,
+                "y": -2813.5454545454545,
+                "z": 450
+            },
+            "node_name": 70,
+            "links": [
+                {
+                    "node": 69,
+                    "type": "horizontal",
+                    "cost": 1022.6339674609673
+                },
+                {
+                    "node": 71,
+                    "type": "horizontal",
+                    "cost": 1332.06795051656
+                },
+                {
+                    "node": 72,
+                    "type": "horizontal",
+                    "cost": 1530.5691265799364
+                }
+            ],
+            "description": "코너5",
+            "type": "path"
+        },
+        "71": {
+            "coordinate": {
+                "x": 530.090909090909,
+                "y": -1481.5454545454545,
+                "z": 450
+            },
+            "node_name": 71,
+            "links": [
+                {
+                    "node": 70,
+                    "type": "horizontal",
+                    "cost": 1332.06795051656
+                },
+                {
+                    "node": 72,
+                    "type": "horizontal",
+                    "cost": 404.7560228292211
+                },
+                {
+                    "node": 68,
+                    "type": "horizontal",
+                    "cost": 1076.6999474595996
+                },
+                {
+                    "node": 74,
+                    "type": "horizontal",
+                    "cost": 955.651653399202
+                }
+            ],
+            "description": "복도19",
+            "type": "path"
+        },
+        "72": {
+            "coordinate": {
+                "x": 906.8181818181818,
+                "y": -1333.5454545454545,
+                "z": 450
+            },
+            "node_name": 72,
+            "links": [
+                {
+                    "node": 71,
+                    "type": "horizontal",
+                    "cost": 404.7560228292211
+                },
+                {
+                    "node": 73,
+                    "type": "horizontal",
+                    "cost": 219.02413165661426
+                },
+                {
+                    "node": 70,
+                    "type": "horizontal",
+                    "cost": 1530.5691265799364
+                },
+                {
+                    "node": 74,
+                    "type": "horizontal",
+                    "cost": 902.5583472817335
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "73": {
+            "coordinate": {
+                "x": 1068.2727272727273,
+                "y": -1185.5454545454545,
+                "z": 450
+            },
+            "node_name": 73,
+            "links": [
+                {
+                    "node": 72,
+                    "type": "horizontal",
+                    "cost": 219.02413165661426
+                },
+                {
+                    "node": 5,
+                    "type": "vertical",
+                    "cost": 1936.8298969157765
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "74": {
+            "coordinate": {
+                "x": 503.181818181818,
+                "y": -526.272727272727,
+                "z": 450
+            },
+            "node_name": 74,
+            "links": [
+                {
+                    "node": 71,
+                    "type": "horizontal",
+                    "cost": 955.651653399202
+                },
+                {
+                    "node": 72,
+                    "type": "horizontal",
+                    "cost": 902.5583472817335
+                },
+                {
+                    "node": 75,
+                    "type": "horizontal",
+                    "cost": 1103.3547641339976
+                }
+            ],
+            "description": "가게37",
+            "type": "destination"
+        },
+        "75": {
+            "coordinate": {
+                "x": 516.6363636363635,
+                "y": 577.0,
+                "z": 450
+            },
+            "node_name": 75,
+            "links": [
+                {
+                    "node": 66,
+                    "type": "horizontal",
+                    "cost": 1050.2304823778934
+                },
+                {
+                    "node": 74,
+                    "type": "horizontal",
+                    "cost": 1103.3547641339976
+                },
+                {
+                    "node": 76,
+                    "type": "horizontal",
+                    "cost": 968.8207025652418
+                }
+            ],
+            "description": "가게38",
+            "type": "destination"
+        },
+        "76": {
+            "coordinate": {
+                "x": 530.090909090909,
+                "y": 1545.727272727273,
+                "z": 450
+            },
+            "node_name": 76,
+            "links": [
+                {
+                    "node": 75,
+                    "type": "horizontal",
+                    "cost": 968.8207025652418
+                },
+                {
+                    "node": 77,
+                    "type": "horizontal",
+                    "cost": 578.545454545454
+                }
+            ],
+            "description": "가게39",
+            "type": "destination"
+        },
+        "77": {
+            "coordinate": {
+                "x": 530.090909090909,
+                "y": 2124.272727272727,
+                "z": 450
+            },
+            "node_name": 77,
+            "links": [
+                {
+                    "node": 76,
+                    "type": "horizontal",
+                    "cost": 578.545454545454
+                },
+                {
+                    "node": 64,
+                    "type": "horizontal",
+                    "cost": 1068.0061905909047
+                },
+                {
+                    "node": 78,
+                    "type": "horizontal",
+                    "cost": 854.4430886463635
+                }
+            ],
+            "description": "코너6",
+            "type": "path"
+        },
+        "78": {
+            "coordinate": {
+                "x": 1297.0,
+                "y": 2501.0,
+                "z": 450
+            },
+            "node_name": 78,
+            "links": [
+                {
+                    "node": 77,
+                    "type": "horizontal",
+                    "cost": 854.4430886463635
+                },
+                {
+                    "node": 79,
+                    "type": "horizontal",
+                    "cost": 758.8411347367746
+                }
+            ],
+            "description": "가게40",
+            "type": "destination"
+        },
+        "79": {
+            "coordinate": {
+                "x": 1754.4545454545455,
+                "y": 3106.454545454546,
+                "z": 450
+            },
+            "node_name": 79,
+            "links": [
+                {
+                    "node": 78,
+                    "type": "horizontal",
+                    "cost": 758.8411347367746
+                },
+                {
+                    "node": 80,
+                    "type": "horizontal",
+                    "cost": 493.43525118037286
+                }
+            ],
+            "description": "가게41",
+            "type": "destination"
+        },
+        "80": {
+            "coordinate": {
+                "x": 1848.6363636363635,
+                "y": 3590.818181818182,
+                "z": 450
+            },
+            "node_name": 80,
+            "links": [
+                {
+                    "node": 79,
+                    "type": "horizontal",
+                    "cost": 493.43525118037286
+                },
+                {
+                    "node": 61,
+                    "type": "horizontal",
+                    "cost": 1053.4144405081383
+                },
+                {
+                    "node": 81,
+                    "type": "horizontal",
+                    "cost": 1628.0000000000005
+                }
+            ],
+            "description": "코너7",
+            "type": "path"
+        },
+        "81": {
+            "coordinate": {
+                "x": 3476.636363636364,
+                "y": 3590.818181818182,
+                "z": 450
+            },
+            "node_name": 81,
+            "links": [
+                {
+                    "node": 80,
+                    "type": "horizontal",
+                    "cost": 1628.0000000000005
+                },
+                {
+                    "node": 82,
+                    "type": "horizontal",
+                    "cost": 1062.90909090909
+                },
+                {
+                    "node": 59,
+                    "type": "horizontal",
+                    "cost": 1077.1201886634776
+                }
+            ],
+            "description": "가게42",
+            "type": "destination"
+        },
+        "82": {
+            "coordinate": {
+                "x": 4539.545454545454,
+                "y": 3590.818181818182,
+                "z": 450
+            },
+            "node_name": 82,
+            "links": [
+                {
+                    "node": 81,
+                    "type": "horizontal",
+                    "cost": 1062.90909090909
+                },
+                {
+                    "node": 83,
+                    "type": "horizontal",
+                    "cost": 1009.0909090909099
+                }
+            ],
+            "description": "가게43",
+            "type": "destination"
+        },
+        "83": {
+            "coordinate": {
+                "x": 5548.636363636364,
+                "y": 3590.818181818182,
+                "z": 450
+            },
+            "node_name": 83,
+            "links": [
+                {
+                    "node": 82,
+                    "type": "horizontal",
+                    "cost": 1009.0909090909099
+                },
+                {
+                    "node": 58,
+                    "type": "horizontal",
+                    "cost": 1036.0
+                },
+                {
+                    "node": 84,
+                    "type": "horizontal",
+                    "cost": 409.20402476551624
+                }
+            ],
+            "description": "코너8",
+            "type": "path"
+        },
+        "84": {
+            "coordinate": {
+                "x": 5911.909090909091,
+                "y": 3402.454545454546,
+                "z": 450
+            },
+            "node_name": 84,
+            "links": [
+                {
+                    "node": 85,
+                    "type": "horizontal",
+                    "cost": 1265.013507261373
+                },
+                {
+                    "node": 83,
+                    "type": "horizontal",
+                    "cost": 409.20402476551624
+                },
+                {
+                    "node": 54,
+                    "type": "horizontal",
+                    "cost": 392.26403656232
+                }
+            ],
+            "description": "복도20",
+            "type": "path"
+        },
+        "85": {
+            "coordinate": {
+                "x": 5885.0,
+                "y": 2137.727272727273,
+                "z": 450
+            },
+            "node_name": 85,
+            "links": [
+                {
+                    "node": 84,
+                    "type": "horizontal",
+                    "cost": 1265.013507261373
+                },
+                {
+                    "node": 86,
+                    "type": "horizontal",
+                    "cost": 538.8541255247483
+                }
+            ],
+            "description": "가게44",
+            "type": "destination"
+        },
+        "86": {
+            "coordinate": {
+                "x": 5911.909090909091,
+                "y": 1599.545454545455,
+                "z": 450
+            },
+            "node_name": 86,
+            "links": [
+                {
+                    "node": 87,
+                    "type": "horizontal",
+                    "cost": 400.0323953823889
+                },
+                {
+                    "node": 85,
+                    "type": "horizontal",
+                    "cost": 538.8541255247483
+                }
+            ],
+            "description": "코너9",
+            "type": "path"
+        },
+        "87": {
+            "coordinate": {
+                "x": 6288.636363636364,
+                "y": 1734.090909090909,
+                "z": 450
+            },
+            "node_name": 87,
+            "links": [
+                {
+                    "node": 86,
+                    "type": "horizontal",
+                    "cost": 400.0323953823889
+                },
+                {
+                    "node": 88,
+                    "type": "horizontal",
+                    "cost": 201.81818181818198
+                },
+                {
+                    "node": 90,
+                    "type": "vertical",
+                    "cost": 1836.6158242676704
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "88": {
+            "coordinate": {
+                "x": 6490.454545454546,
+                "y": 1734.090909090909,
+                "z": 450
+            },
+            "node_name": 88,
+            "links": [
+                {
+                    "node": 87,
+                    "type": "horizontal",
+                    "cost": 201.81818181818198
+                },
+                {
+                    "node": 89,
+                    "type": "horizontal",
+                    "cost": 726.6700229912122
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "89": {
+            "coordinate": {
+                "x": 7217.0,
+                "y": 1720.636363636364,
+                "z": 450
+            },
+            "node_name": 89,
+            "links": [
+                {
+                    "node": 88,
+                    "type": "horizontal",
+                    "cost": 726.6700229912122
+                },
+                {
+                    "node": 56,
+                    "type": "horizontal",
+                    "cost": 1790.718623928015
+                }
+            ],
+            "description": "가게45",
+            "type": "destination"
+        }
+    },
+    "3": {
+        "90": {
+            "coordinate": {
+                "x": 6261.727272727273,
+                "y": 3469.727272727273,
+                "z": 1050
+            },
+            "node_name": 90,
+            "links": [
+                {
+                    "node": 96,
+                    "type": "horizontal",
+                    "cost": 433.89605336297694
+                },
+                {
+                    "node": 91,
+                    "type": "horizontal",
+                    "cost": 245.52241485930975
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "91": {
+            "coordinate": {
+                "x": 6503.909090909091,
+                "y": 3510.090909090909,
+                "z": 1050
+            },
+            "node_name": 91,
+            "links": [
+                {
+                    "node": 90,
+                    "type": "horizontal",
+                    "cost": 245.52241485930975
+                },
+                {
+                    "node": 92,
+                    "type": "horizontal",
+                    "cost": 866.6440259810225
+                },
+                {
+                    "node": 102,
+                    "type": "horizontal",
+                    "cost": 1130.5021191144733
+                },
+                {
+                    "node": 88,
+                    "type": "vertical",
+                    "cost": 1874.661842784823
+                }
+            ],
+            "description": "에스컬레이터",
+            "type": "escalator"
+        },
+        "92": {
+            "coordinate": {
+                "x": 7270.818181818182,
+                "y": 3913.727272727273,
+                "z": 1050
+            },
+            "node_name": 92,
+            "links": [
+                {
+                    "node": 91,
+                    "type": "horizontal",
+                    "cost": 866.6440259810225
+                },
+                {
+                    "node": 102,
+                    "type": "horizontal",
+                    "cost": 1293.3870711053517
+                }
+            ],
+            "description": "가게46",
+            "type": "destination"
+        },
+        "93": {
+            "coordinate": {
+                "x": 2467.5454545454545,
+                "y": 3537.0,
+                "z": 1050
+            },
+            "node_name": 93,
+            "links": [
+                {
+                    "node": 94,
+                    "type": "horizontal",
+                    "cost": 968.7272727272725
+                }
+            ],
+            "description": "가게47",
+            "type": "destination"
+        },
+        "94": {
+            "coordinate": {
+                "x": 3436.272727272727,
+                "y": 3537.0,
+                "z": 1050
+            },
+            "node_name": 94,
+            "links": [
+                {
+                    "node": 93,
+                    "type": "horizontal",
+                    "cost": 968.7272727272725
+                },
+                {
+                    "node": 95,
+                    "type": "horizontal",
+                    "cost": 955.272727272727
+                }
+            ],
+            "description": "가게48",
+            "type": "destination"
+        },
+        "95": {
+            "coordinate": {
+                "x": 4391.545454545454,
+                "y": 3537.0,
+                "z": 1050
+            },
+            "node_name": 95,
+            "links": [
+                {
+                    "node": 94,
+                    "type": "horizontal",
+                    "cost": 955.272727272727
+                },
+                {
+                    "node": 96,
+                    "type": "horizontal",
+                    "cost": 1439.6992339712908
+                }
+            ],
+            "description": "가게49",
+            "type": "destination"
+        },
+        "96": {
+            "coordinate": {
+                "x": 5831.181818181818,
+                "y": 3523.545454545455,
+                "z": 1050
+            },
+            "node_name": 96,
+            "links": [
+                {
+                    "node": 97,
+                    "type": "horizontal",
+                    "cost": 1453.1531973181743
+                },
+                {
+                    "node": 95,
+                    "type": "horizontal",
+                    "cost": 1439.6992339712908
+                },
+                {
+                    "node": 90,
+                    "type": "horizontal",
+                    "cost": 433.89605336297694
+                }
+            ],
+            "description": "코너10",
+            "type": "path"
+        },
+        "97": {
+            "coordinate": {
+                "x": 5817.727272727273,
+                "y": 2070.454545454546,
+                "z": 1050
+            },
+            "node_name": 97,
+            "links": [
+                {
+                    "node": 96,
+                    "type": "horizontal",
+                    "cost": 1453.1531973181743
+                },
+                {
+                    "node": 98,
+                    "type": "horizontal",
+                    "cost": 704.278307123184
+                }
+            ],
+            "description": "가게50",
+            "type": "destination"
+        },
+        "98": {
+            "coordinate": {
+                "x": 5898.454545454546,
+                "y": 1370.818181818182,
+                "z": 1050
+            },
+            "node_name": 98,
+            "links": [
+                {
+                    "node": 97,
+                    "type": "horizontal",
+                    "cost": 704.278307123184
+                },
+                {
+                    "node": 99,
+                    "type": "horizontal",
+                    "cost": 1318.820008521266
+                }
+            ],
+            "description": "코너11",
+            "type": "path"
+        },
+        "99": {
+            "coordinate": {
+                "x": 7217.0,
+                "y": 1343.909090909091,
+                "z": 1050
+            },
+            "node_name": 99,
+            "links": [
+                {
+                    "node": 98,
+                    "type": "horizontal",
+                    "cost": 1318.820008521266
+                },
+                {
+                    "node": 100,
+                    "type": "horizontal",
+                    "cost": 1480.2446078853163
+                },
+                {
+                    "node": 102,
+                    "type": "horizontal",
+                    "cost": 1278.2526296174658
+                },
+                {
+                    "node": 101,
+                    "type": "horizontal",
+                    "cost": 1991.136358966909
+                }
+            ],
+            "description": "복도21",
+            "type": "path"
+        },
+        "100": {
+            "coordinate": {
+                "x": 8697.0,
+                "y": 1317.0,
+                "z": 1050
+            },
+            "node_name": 100,
+            "links": [
+                {
+                    "node": 99,
+                    "type": "horizontal",
+                    "cost": 1480.2446078853163
+                },
+                {
+                    "node": 101,
+                    "type": "horizontal",
+                    "cost": 1358.909090909091
+                },
+                {
+                    "node": 102,
+                    "type": "horizontal",
+                    "cost": 1983.347866696757
+                }
+            ],
+            "description": "복도22",
+            "type": "path"
+        },
+        "101": {
+            "coordinate": {
+                "x": 8697.0,
+                "y": 2675.909090909091,
+                "z": 1050
+            },
+            "node_name": 101,
+            "links": [
+                {
+                    "node": 99,
+                    "type": "horizontal",
+                    "cost": 1991.136358966909
+                },
+                {
+                    "node": 100,
+                    "type": "horizontal",
+                    "cost": 1358.909090909091
+                },
+                {
+                    "node": 102,
+                    "type": "horizontal",
+                    "cost": 1494.4239278173568
+                }
+            ],
+            "description": "복도23",
+            "type": "path"
+        },
+        "102": {
+            "coordinate": {
+                "x": 7203.545454545455,
+                "y": 2622.090909090909,
+                "z": 1050
+            },
+            "node_name": 102,
+            "links": [
+                {
+                    "node": 99,
+                    "type": "horizontal",
+                    "cost": 1278.2526296174658
+                },
+                {
+                    "node": 100,
+                    "type": "horizontal",
+                    "cost": 1983.347866696757
+                },
+                {
+                    "node": 101,
+                    "type": "horizontal",
+                    "cost": 1494.4239278173568
+                },
+                {
+                    "node": 92,
+                    "type": "horizontal",
+                    "cost": 1293.3870711053517
+                },
+                {
+                    "node": 91,
+                    "type": "horizontal",
+                    "cost": 1130.5021191144733
+                }
+            ],
+            "description": "복도24",
+            "type": "path"
+        }
+    }
+}

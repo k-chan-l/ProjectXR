@@ -1,0 +1,27 @@
+# Unreal
+XRBuilding/Binaries/
+XRBuilding/DerivedDataCache/
+XRBuilding/Intermediate/
+XRBuilding/Saved/
+XRBuilding/Content/
+
+# IDE / generated project files
+XRBuilding/.idea/
+XRBuilding/.vs/
+XRBuilding/.vsconfig
+XRBuilding/*.sln
+
+# Unreal build outputs
+XRBuilding/**/*.pdb
+XRBuilding/**/*.obj
+XRBuilding/**/*.ilk
+XRBuilding/**/*.exp
+XRBuilding/**/*.lib
+XRBuilding/**/*.dll
+XRBuilding/**/*.exe
+
+# RiderLink - IDE integration plugin
+XRBuilding/Plugins/Developer/RiderLink/
+
+# Python - Backend
+Backend/__pycache__/
