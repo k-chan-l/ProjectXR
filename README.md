@@ -54,6 +54,25 @@ Env --> XR Glass(input) --> AI Backend --> XR Glass(output)
 - 방향 기반 후보 노드 제한 구조 적용
 - Unreal 환경 내 경로 시각화 UI 구현
 
+## 도면 기반 Node 생성
+
+프로젝트에서는 건물 도면 이미지를 기반으로 주요 길목을 Navigation Node로 추출합니다.
+
+<table>
+  <tr>
+    <td align="center"><b>Node 생성 전 도면</b></td>
+    <td align="center"><b>Node 생성 후 도면</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./Backend/Data/FloorPlan/floor_1.png" width="400">
+    </td>
+    <td>
+      <img src="./Backend/Data/Graph/floor_1.png" width="400">
+    </td>
+  </tr>
+</table>
+
 ## 관련 문서
 
 - [Development Plan](./docs/Devplan.md)
